@@ -1,12 +1,17 @@
 {
-    "name": "travis-ci-test",
-    "version": "0.0.1",
-    "description": "Fooling around with travis ci",
-    "repository": "https://github.com/amygdaloideum/travis-ci-test.git",
-    "author": "Daniel Bornstrand",
-    "dependencies": {},
-    "main": "index",
-    "scripts": {
-        "test": "make lint && make test"
-    }
+  "name": "travis-ci-test",
+  "version": "0.0.1",
+  "description": "Fooling around with travis ci",
+  "repository": "https://github.com/amygdaloideum/travis-ci-test.git",
+  "author": "Daniel Bornstrand",
+  "dependencies": {},
+  "main": "index",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint index.js"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1",
+    "eslint": "^4.7.1"    
+  }
 }
