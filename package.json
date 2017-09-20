@@ -1,0 +1,12 @@
+{
+    "name": "travis-ci-test",
+    "version": "0.0.1",
+    "description": "Fooling around with travis ci",
+    "repository": "https://github.com/amygdaloideum/travis-ci-test.git",
+    "author": "Daniel Bornstrand",
+    "dependencies": {},
+    "main": "index",
+    "scripts": {
+        "test": "make lint && make test"
+    }
+}
