@@ -1,1 +1,1 @@
-console.log('This app is the shit');
+console.log('This app is the shit'); // Fix the tests again
